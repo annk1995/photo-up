@@ -17,4 +17,7 @@ def viewPhoto(request, pk):
     return render(request, 'photo.html', {'photo': photo})
 
 def addPhoto(request):
+    categories = Category.objects.all()
+
+    context = {'categories':categories}
     return render(request,'add.html')
