@@ -1,3 +1,4 @@
+from email.mime import image
 from multiprocessing import context
 from django.shortcuts import render
 from .models import Category,Photo
@@ -18,6 +19,11 @@ def viewPhoto(request, pk):
 
 def addPhoto(request):
     categories = Category.objects.all()
+    if request.method == 'POST':
+        data =request.POST
+        image =request.FILES.get('image')
+
+
 
     context = {'categories':categories}
-    return render(request,'add.html')
+    return render(request,'add.html',context)
