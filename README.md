@@ -23,3 +23,16 @@ django
 pillow
 gunicorn
 bootstrap
+
+# CLONING
+Open Terminal {Ctrl+Alt+T}
+
+git clone https://github.com/annk1995/photo-up.git
+
+cd photoup
+
+Vs code . or atom . based on the text editor you have.
+
+
+
+
