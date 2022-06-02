@@ -14,3 +14,12 @@ Filter photos with category.
 
 # LIVE LINK
 picturesharen.herokuapp.com
+
+# SETUP AND INSTALLATION
+
+The application requires the following installations to operate
+python3
+django
+pillow
+gunicorn
+bootstrap
