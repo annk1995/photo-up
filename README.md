@@ -33,6 +33,12 @@ cd photoup
 
 Vs code . or atom . based on the text editor you have.
 
+# RUNNING THE APPLICATION
+To run the application, open the cloned file in terminal and run the following commands:
+ $  python3 -m venv pip virtual -- creates the virtual for runnning your app      
+ $ source virtual/bin/env  -- activate  the virtual
+ $ python3 manage.py runserver
+
 
 
 
