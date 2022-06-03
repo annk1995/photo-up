@@ -15,7 +15,7 @@ Filter photos with category.
 # LIVE LINK
 
 This is the live link:
-picturesharen.herokuapp.com
+
 
 # SETUP AND INSTALLATION
 
