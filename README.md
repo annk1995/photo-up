@@ -14,7 +14,7 @@ Filter photos with category.
 
 # LIVE LINK
 
-This is the live link:
+This is the live link: https://picxels.herokuapp.com/
 
 
 # SETUP AND INSTALLATION
